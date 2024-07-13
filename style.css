@@ -1,0 +1,126 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #E0E8FF;
+    padding: 101px 495px;
+}
+
+.main_order_summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 697px;
+    background-color: #FFF;
+    border-radius: 1.5em;
+    padding-bottom: 48px;
+}
+
+.main_content > img {
+    border-radius: 1.5em 1.5em 0 0;
+    margin-bottom: 45px;
+}
+
+h1 {
+    color: #1F2E55;
+    font-size: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-bottom: 17px;
+
+}
+
+.main_content > p {
+    color: #717FA6;
+    font-size: 16px;
+    width: 354px;
+    height: 78px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-bottom: 20px;
+}
+
+.main_price {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9FF; 
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+/* add in css for the elements inside main-price-content here */
+
+.main_price_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.main_price_content > img {
+    margin-left: 24px;
+
+}
+
+.main_price_content > p {
+    margin-left: 94px;
+    margin-right: 39px;
+}
+
+.billing_interval {
+    margin-left: 20px;
+    width: 92px;
+    height: 48px;
+    padding-bottom: 25px;
+}
+
+.billing_interval > h2 {
+    color: #1F2E55;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.billing_interval > p {
+    color: #717FA6;
+    font-weight: medium;
+    font-size: 15px;
+    margin-top: 2px;
+    padding-bottom: 25px;
+}
+
+.payment {
+    width: 354px;
+    height: 50px;
+    color: #fff;
+    background-color: #382AE1;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 20px 12px rgba(56, 42, 225, 0.25);
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.cancel_order {
+    color: #717FA6;
+    font-size: 15px;
+    padding-top: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
